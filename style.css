@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+
+}
+
+.container-right {
+    width: 40%;
+}
+
+.container-left {
+    width: 900px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 30px;
+    height: 500px;
+    padding: 3px 3px 3px 3px;
+    color: azure;
+
+}
+
+.btn1 {
+
+    top: 150px;
+    position: relative;
+    padding: 10px 20px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(32, 133, 32);
+    font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    float: left;
+}
+
+.btn2 {
+
+    top: 150px;
+    position: relative;
+    padding: 10px 20px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(195, 209, 195);
+    font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bottom {
+    position: sticky;
+    height: 110px;
+    background-color: rgb(70, 77, 69);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom .fa{
+
+    cursor: pointer;
+}
+
+#progressbar {
+    text-align: center;
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-left: 4px;
+
+}
+
+.songItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timestamp .fa{
+    cursor: pointer;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: ease-in opacity;
+
+}
+
+@media (max-width: 611px) {
+    .btn1 {
+        position: relative;
+        ;
+        left: 80px;
+        top: 2px
+    }
+
+}
+
+@media (max-width: 611px) {
+    .btn2 {
+        position: relative;
+        ;
+        left: 80px;
+        top: 2px
+    }
+
+}
+
+@media (max-width: 499px) {
+    .container-left {
+        height: 500px;
+    }
+
+}
+
+@media (min-width: 499px) and (max-width: 565px) {
+    .container-left {
+        height: 500px;
+    }
+}
+
+@media (max-width: 499px) {
+    .container-left {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 325px) {
+    .container-left {
+        height: 800px;
+    }
+
+}
